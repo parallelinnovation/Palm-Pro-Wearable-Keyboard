@@ -3,11 +3,9 @@
 
 Adafruit_DRV2605 drv;
 
-const int FSR_PIN = A0; // Pin connected to FSR/resistor divider
-
-                                                                      // Measure the voltage at 5V and resistance of 3.3k resistor
-const float VCC = 3.30;                                               // Measured voltage of Ardunio 5V line
-const float R_DIV = 2000.00;                                          // Measured resistance of 3.3k resistor
+const int FSR_PIN = A0; // Pin connected to FSR is A0                 // The resistor I've chosen is 2K ohm
+const float VCC = 3.30;                                               // voltage is 3.3V
+const float R_DIV = 2000.00;                                          // Measured resistance of the 2k resistor
 
 void setup() 
 {
@@ -64,11 +62,7 @@ void loop()
     } 
   else
   {}
-//  drv.setWaveform(0, 1);  // play effect 
-//  drv.setWaveform(1, 0);       // end waveform
-
- 
-  delay(10);
-
-  
+//  drv.setWaveform(0, 1);
+//  drv.setWaveform(1, 0);      
+  delay(10);  
 }
