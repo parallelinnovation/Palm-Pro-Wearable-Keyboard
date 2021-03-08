@@ -1,4 +1,4 @@
-# Palm-Pro-Wearable-Keyboard
+# Palm Pro Wearable Keyboard
 The Palm Pro is a small wearable keyboard intended to be used for navigation control and keyboard input for smartglasses. It is designed to be an ideal keyboard for multitasking (walking, running, socializing, etc...)
 
 More info on this project can be found [on the Palm Pro's website](https://www.parallelinnov.com/palm-pro-wearable-keyboard/). I will post a link to the CAD files to 3D print once their design is stable. 
